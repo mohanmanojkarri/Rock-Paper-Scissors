@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="rock-paper-scissors.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<body>
+    <main class="container">
+        <h2 class="heading">Rock Paper Scissors</h1>
+        <section class="section1">
+            <div class="firstpart">
+                <h2 class="subheading1">Pick one</h2>
+                <button class="button "><img src="Images/Rock.png" alt="Rock"></button>
+                <button class="button "><img src="Images/Paper.png" alt="Paper"></button>
+                <button class="button "><img src="Images/Scissors.png" alt="Scissors"></button>
+            </div>
+            <div class="secondpart hide">
+                 <div class="subheading2">
+                    <p>Player</p>
+                    <p>v/s</p>
+                    <p>Computer</p>
+                </div>
+                <div class="action">
+                    <article class="fig player"></article>
+                    <article class="fig computer"></article>
+                </div>
+                <div class="wintitle hide">
+                    <p class="wintext">Congrats</p>
+                    <button class="playagain">Play Again</button>
+                </div>
+            </div>
+        </section>
+        <section class="section2">
+            <p class="win">win : 0</p>
+            <p class="lost">Lost : 0</p>
+            <p class="draw">Draw : 0</p>
+        </section>
+    </main>
+    <script src="rock-paper-scissors.js"></script>
+</body>
+</html>
