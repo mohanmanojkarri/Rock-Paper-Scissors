@@ -19,3 +19,5 @@ Play against the computer with animations, score tracking, and a clean interface
 
 
 ## 📸 Preview
+<img width="1388" height="911" alt="image" src="https://github.com/user-attachments/assets/071ed2b5-710c-4012-92d2-89048e909de2" />
+<img width="1388" height="911" alt="image" src="https://github.com/user-attachments/assets/7fe1a485-8fdd-4429-a336-acb85824ee88" />
